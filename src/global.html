@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Stop Scroll</title>
+  <script>
+    var paused = false;
+
+    function validate(e) {
+      if (paused && e.command === "scrollstop") {
+        // Already paused; don't show pause item
+        e.target.disabled = true;
+      }
+
+      if (!paused && e.command === "scrollgo") {
+        // Not paused; don't show resume item
+        e.target.disabled = true;
+      }
+    }
+
+
+    function clicked(e) {
+      if (e.command === "scrollstop") {
+        safari.application.activeBrowserWindow.activeTab.page.dispatchMessage("name", "scrollstop");
+        paused = true;
+      }
+
+      if (e.command === "scrollgo") {
+        safari.application.activeBrowserWindow.activeTab.page.dispatchMessage("name", "scrollgo");
+        paused = false;
+      }
+    }
+
+    safari.application.addEventListener("validate", validate, false);
+    safari.application.addEventListener("command", clicked, false);
+  </script>
+</head>
+
+</html>
