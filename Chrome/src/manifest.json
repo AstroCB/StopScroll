@@ -3,7 +3,7 @@
 
     "name": "StopScroll",
     "description": "Add a \"pause\" button to the context menu to lock the scrolling of the page in one place.",
-    "version": "1.0",
+    "version": "1.1",
     "author": "Cameron Bernhardt (AstroCB)",
 
     "permissions": [

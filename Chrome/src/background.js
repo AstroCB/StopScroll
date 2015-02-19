@@ -4,7 +4,6 @@ function addPause() {
     chrome.contextMenus.create({
         "title": "Pause Scrolling",
         "id": "pause",
-        "contexts": ["all"]
     });
 }
 
@@ -14,7 +13,6 @@ function addResume() {
     chrome.contextMenus.create({
         "title": "Resume Scrolling",
         "id": "resume",
-        "contexts": ["all"]
     });
 }
 
