@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+
+    "name": "StopScroll",
+    "description": "Add a \"pause\" button to the context menu to lock the scrolling of the page in one place.",
+    "version": "1.0",
+    "author": "Cameron Bernhardt (AstroCB)",
+
+    "permissions": [
+        "contextMenus"
+    ],
+
+    "background": {
+        "persistent": false,
+        "scripts": ["background.js"]
+    },
+
+    "icons": {
+        "128": "Icon-128.png"
+    },
+
+    "content_scripts": [{
+        "matches": ["http://*/*", "https://*/*"],
+        "js": ["injected.js"]
+    }]
+}
