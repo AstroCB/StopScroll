@@ -33,4 +33,12 @@ Download the `.crx` file (`Chrome/StopScroll.crx`), and follow [Google's new ins
 ---
 If you'd like to modify it to suit your own needs, you can clone this repository and tinker with the files located under `Chrome/src`. If you need any information about Chrome extensions, see [Google's Getting Started guide](https://developer.chrome.com/extensions/getstarted).
 
+## Firefox
+**Support for Firefox is preliminary.**
+1. Download the `.xpi` file (`Firefox/StopScroll.xpi`) and drag it into an active Firefox window. 
+2. Click "Install Now"
+
+---
+If you'd like to modify it to suit your own needs, you can clone this repository and tinker with the files located under `Firefox/src`. If you need any information about Chrome extensions, see [Mozilla's guide](https://developer.mozilla.org/en-US/docs/Building_an_Extension).
+
 This extension was inspired by [this post](http://apple.stackexchange.com/questions/170021/how-to-disable-the-scrolling-on-osx-safari) on [Ask Different](http://apple.stackexchange.com).
