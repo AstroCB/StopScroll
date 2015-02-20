@@ -5,5 +5,7 @@
   "description": "Add a \"pause\" button to the context menu to lock the scrolling of the page in one place.",
   "author": "Cameron Bernhardt (AstroCB)",
   "license": "MPL 2.0",
-  "version": "1.0"
+  "version": "1.0",
+  "icon": "data/Icon-32.png",
+  "icon64": "data/Icon-64.png"
 }
