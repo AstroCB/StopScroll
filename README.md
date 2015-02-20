@@ -35,6 +35,7 @@ If you'd like to modify it to suit your own needs, you can clone this repository
 
 ## Firefox
 **Support for Firefox is preliminary.**
+
 1. Download the `.xpi` file (`Firefox/StopScroll.xpi`) and drag it into an active Firefox window. 
 2. Click "Install Now"
 
