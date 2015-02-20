@@ -1,0 +1,9 @@
+{
+  "name": "stopscroll",
+  "title": "StopScroll",
+  "id": "jid1-VLTEXsYiBkOMaA",
+  "description": "Add a \"pause\" button to the context menu to lock the scrolling of the page in one place.",
+  "author": "Cameron Bernhardt (AstroCB)",
+  "license": "MPL 2.0",
+  "version": "1.0"
+}
